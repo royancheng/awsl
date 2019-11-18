@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/car/car"
+    "pages/car/car",
+    "pages/my/my"
   ],
   "tabBar":{
     "selectedColor": "#bbb",
@@ -26,7 +27,9 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "ko no dio da",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#ccc"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

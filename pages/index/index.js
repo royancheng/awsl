@@ -7,7 +7,10 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    title:'WDNMD',
+    title2:'我起啦，一枪秒啦，有什么好说哒？',
+    onOff:false,
   },
   //事件处理函数
   bindViewTap: function() {
@@ -49,6 +52,13 @@ Page({
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
+    })
+  },
+  click1:function(){
+    this.onOff =!this.onOff;
+    console.log(this.onOff)
+    this.setData({
+      onOff:this.onOff
     })
   }
 })

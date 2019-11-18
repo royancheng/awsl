@@ -10,4 +10,9 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view class="usermotto">
+    <text class="user-motto">{{onOff?title2:title}}</text>
+    <button bindtap="click1">开关</button>
+  </view>
 </view>
+
