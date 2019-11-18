@@ -9,7 +9,9 @@
     "list":[{
       "pagePath":"pages/index/index",
       "color":"#000000",
-      "text":"首页"
+      "text":"首页",
+      "iconPath":"pages/index/主页.png",
+      "selectedIconPath": "pages/index/主页 (1).png"
     },{
       "pagePath": "pages/index/index",
       "color": "#000000",
